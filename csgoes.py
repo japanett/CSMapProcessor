@@ -3,9 +3,8 @@
 from PIL import Image
 
 def main():
-  pixels = []
   mapImg = Image.open('map1.jpeg')
-  print("Pixels:\n")
+  print("Printing coordinates:\n")
   print(getCoordinates(mapImg))
 
 def getCoordinates(image):
